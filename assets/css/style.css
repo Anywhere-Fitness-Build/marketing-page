@@ -116,6 +116,13 @@ html {
             height: 70%;
         }
     }
+
+    .footer {
+      display: inline-flex;
+      padding: 2px; 
+      text-align: center; /* Center text*/
+      background: #ddd; /* Grey background */
+    }
   
   .section-title .title {
     font-size: 32px;
@@ -129,3 +136,15 @@ html {
     .section-title .title span {
       font-weight: 400;
       display: contents; }
+    @media (max-width: 600px){
+      .navbar .nav-item{
+        display: none;
+      }
+      .navbar .hamburger_menu a{
+        display: -ms-inline-grid;
+        padding-left: 119%;
+      
+      }
+    }
+
+     
