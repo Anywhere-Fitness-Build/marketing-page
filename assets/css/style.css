@@ -1,0 +1,131 @@
+body{
+  height: 100%;
+}
+
+
+html {
+  height: 100%;
+}
+
+
+/* Add a black background color to the top navigation */
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(15, 15, 15);
+  
+ 
+}
+
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+      display: flex;
+      
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .nav-item{
+    display: flex;
+    float: right;
+    justify-content: space-evenly;
+}
+  
+   .navbar a:hover {
+    background-color: #ff6900;
+    color: #021301;
+  }
+  
+  
+  .navbar a.active {
+    background-color: #dc5b0a;
+    color: white;
+  }
+  .main-btn {
+      display: flex;
+      font-weight: 600;
+      font-family: sans-serif;
+      text-align: center;
+      white-space: nowrap;
+      border-radius: 5px;
+      background-color: #ff6900;
+      margin: 0 auto;
+  }
+.button:hover {color: #e68a00;}
+
+
+/* The hero image */
+.hero-image {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90%;
+ 
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: start;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: xx-large;
+}
+.hero-text-color{
+    color: #ff6900
+}
+.hero-text .btn {
+  position: absolute;
+  top: 100%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ff6900;
+  color: white;
+  font-size: 16px;
+  padding: 7px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: auto;
+  
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+.section-title .sub-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #f14836;
+    text-transform: uppercase; }
+    @media (max-width: 767px) {
+      .section-title .sub-title {
+        font-size: 16px; }
+        .hero-image{
+            width: auto;
+            height: 70%;
+        }
+    }
+  
+  .section-title .title {
+    font-size: 32px;
+    padding-top: 10px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .section-title .title {
+        font-size: 30px; } }
+    @media (max-width: 767px) {
+      .section-title .title {
+        font-size: 24px; } }
+    .section-title .title span {
+      font-weight: 400;
+      display: contents; }
